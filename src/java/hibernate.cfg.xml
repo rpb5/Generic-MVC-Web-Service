@@ -10,5 +10,4 @@
     <property name="current_session_context_class">thread</property>
     <mapping resource="EntityDB/EntityBase.hbm.xml"/>
   </session-factory>
-  
 </hibernate-configuration>

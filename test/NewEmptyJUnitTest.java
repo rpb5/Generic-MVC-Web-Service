@@ -1,6 +1,9 @@
 /*
  * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * and open the template in the editor.test
+ *
+ *
+ *
  */
 
 import java.util.*;
@@ -106,7 +109,7 @@ public class NewEmptyJUnitTest {
         u1.setEntityId(EntityBase.generateNewID());
         u1.setTypeId(0);
         u1.setEmail(email2);
-        u1.setFirstName("Johnny");
+        u1.setFirstName("Testing");
         u1.setLastName("knoxville");
         u1.setPhone("800-251-1112");
         u1.setPassword(pwd2);
@@ -153,11 +156,11 @@ public class NewEmptyJUnitTest {
         Event e = new Event();
         e.setEntityId(EntityBase.generateNewID());
         Calendar cal = Calendar.getInstance();
-        cal.set(2011, 4, 5, 11, 0);
+        cal.set(2011, 10, 5, 11, 0);
 
         Date date1 = new Date(cal.getTimeInMillis());
 
-        cal.set(2011, 4, 5, 17, 0);
+        cal.set(2011, 10, 5, 17, 0);
 
         Date date2 = new Date(cal.getTimeInMillis());
 
